@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			p{margin: 4px;}
+			a[href^="http:"]{
+				background: url(img/my.png) no-repeat left center;
+				padding-left: 60px;
+			}
+			a[href$="pdf"]{
+				background: url(img/my1.png) no-repeat left center;
+				padding-left: 60px;
+			}
+			a[href*="show"]{
+				background: url(img/my2.png) no-repeat left center;
+				padding-left: 60px;
+			}
+		</style>
+	</head>
+	<body>
+		<p><a href="http://www.baidu.com/name.pdf">pdf文件</a></p>
+
+		<p><a href="http://www.iconfont.cn/collections/show/20">图标网页</a></p>
+
+		<p><a href="http://www.baidu.com">http://www.baidu.com</a></p>
+	</body>
+</html>

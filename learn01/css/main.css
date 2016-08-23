@@ -1,0 +1,58 @@
+html {
+	font-size: 20px;
+}
+
+body {
+	min-width: 320px;
+}
+
+.pagewapper {
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+.copyright {
+	text-align: right;
+	max-width: 320px;
+	margin: 0 auto;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+.goldtyle {
+	text-align: center;
+	max-width: 320px;
+	margin: 0 auto;
+	color: #FFFF00;
+	font-size: 24px;
+}
+
+.infostyle {
+	text-align: left;
+	max-width: 320px;
+	margin: 0 auto;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+.topgold {
+	background: url(../img/hongbao.png) center no-repeat;
+	background-size: 21.7rem 18.9rem;
+	height: 20.0rem;
+}
+
+.gotoaction {
+	background: url(../img/action.png) center no-repeat;
+	background-size: 25.7rem 4.05rem;
+	height: 10.0rem;
+}
+
+.background {
+	background: url(../img/gold_background.png) center no-repeat;
+	background-size: 28.95rem 44.15rem;
+	background-color: #E84846;
+	height: 100%;
+}
+.myInput{
+	font-size: 20px;
+}

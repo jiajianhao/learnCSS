@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>border-radius</title>
+		<style type="text/css">
+			div.bd1{
+				border: 1px solid blue;
+				padding: 10px 40px;
+				background: #E84846;
+				text-align: center;
+				width: 300px;
+				height: 200px;
+				line-height: 200px;
+				/*border-radius: 100px 0px 100px 0px/100px 0px 100px 0px;*/
+				/*border-radius: 25px;*/
+				/*border-radius: 25px 20px 15px 10px;*/
+				/*左上右上左下右下*/
+				/*border-radius: 25px 10px;*/
+				/*左上右下*/
+				/*border-radius: 25px 5px 10px;*/
+				/*左上25  右上5 左下5  右下10*/
+			
+			}
+			 
+			#round{
+				border-image: url(img/my2.png) 30 round;
+			}
+		</style>
+	</head>
+	<body>
+		<h3>border-radius</h3>
+		<div id="round">xxxxxxXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx</div>
+		<div class="bd1">通过使用border-radius来实现圆角设置</div>
+	</body>
+</html>

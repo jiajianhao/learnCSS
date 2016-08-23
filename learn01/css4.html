@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" name="viewport" />
+
+		<link rel="stylesheet" href="css/less.css" />
+		<link rel="stylesheet" href="css/main.css" />
+
+		<title>shadow</title>
+		<style>
+		div{
+			width: 300px;
+			height: 200px;
+			background-color: yellow;
+				box-shadow: 3px 3px 5px #888888;
+		}
+			input {
+				padding: 4px;
+				border: solid 1px #E84846;
+				font: sans-serif;
+				width: 200px;
+				background: #FFFFFF;
+				box-shadow: 3px 3px 5px #888888;
+				/*x偏移度 y偏移度 模糊度 颜色*/
+
+			}
+			
+			input:hover,
+			input:focus {
+				border-color: #FFFF00;
+			}
+			
+			label {
+				margin-left: 10px; 
+ 				color: #999999;
+			}
+			
+			.submit input {
+				width: auto;
+				padding: 9px 15px;
+				background: #617798;
+				border: 0;
+				font-size: 14px;
+				color: #FFFFFF;
+				margin-left: 100px;
+ 			}
+		</style>
+	</head>
+
+	<body>
+		<article class="pagewapper">
+	<div>	</div>
+
+			<form>
+				<p class="name">
+					<label for="name">姓名</label>
+					<input type="text" name="name" id="name" placeholder="填写姓名"/><br/>
+
+				</p>
+				<p class="email">
+					<label for="email">邮箱</label>
+					<input type="text" name="email" id="email" placeholder="填写邮箱" /><br/>
+
+				</p>
+				<p class="submit" >
+				
+					<input type="submit" value="提交" /><br/>
+
+				</p>
+				</form>
+				
+				
+				
+		</article>
+
+	</body>
+
+</html>

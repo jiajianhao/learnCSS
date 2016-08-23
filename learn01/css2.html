@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" name="viewport" />
+
+		<link rel="stylesheet" href="css/less.css" />
+		<link rel="stylesheet" href="css/main.css" />
+
+		<title></title>
+		<style>
+		/*::selection{
+				color: red;
+			}*/
+			/*div::selection {
+				color: red;
+			}*/
+			/*div::first-line {
+				color: orange;*/
+		}
+		/*p>input[type="text"]{
+				background-color: blue;
+			}*/
+		/*input:read-only{
+				background-color: red;
+			}*/
+		/*:target {
+			background-color: red;
+		}*/
+		</style>
+	</head>
+
+	<body>
+		<article class="pagewapper">
+
+			<form action="#" name="myfrom" method="get">
+				姓名：<input type="text" value="大牛 " /><br/> 国家：
+				<input type="text" disabled="disabled " value="中国 " /><br/>
+				<input type="radio" checked="checked " value="male " name="gender" />男<br />
+				<input type="radio" value="female " name="gender" />女<br />
+
+				<p> 普通的input元素 <br/><input value="hello " />
+				</p>
+				<p>只读的input元素<br/> <input readonly="guanggao " /></p>
+
+				<p> 可选的input元素 <br/><input type="text" value="hello " />
+				</p>
+				<p>必选的input元素<br/> <input required="required " type="text" /></p>
+				<input type="email " value="980497452@qq.com " />
+				<div>当这个时代到来的时候，锐不可当。万物肆意生长，尘埃与曙光升腾，江河汇聚成川，无名山丘崛起为峰，天地一时，无比开阔。</div>
+			</form>
+
+			<p><a href="#new1">调到内容1</a></p>
+			<p><a href="#myfrom">调到内容2</a></p>
+			<p id="new1">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+			<p id="new2">hehehehhehehehehhehehhehhehehhehehehe</p>
+
+		</article>
+
+	</body>
+
+</html>

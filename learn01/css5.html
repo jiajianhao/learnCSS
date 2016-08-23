@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>常用文本属性</title>
+		<style type="text/css">
+			p{
+				font: bold 60px sans-serif;
+				color: #000;
+				text-shadow: 2px 2px 5px #ff0000;
+			}
+			div.test{
+				width: 200px;
+				border: 1px solid #000000;
+				white-space: nowrap;
+				overflow: hidden;
+			}
+			h3.test{
+				width: 100px;
+				border: 1px solid #000000;
+				word-wrap: break-word;
+			}
+		</style>
+	</head>
+	<body>
+		<p>快递云</p>
+		<div class="test" style="text-overflow: ellipsis">
+			当你要给你的网页添加颜色时，有时，你能够直接使用该颜色的名称，但是大多情况下，你只能使用十六进制代码来使用这些颜色。(浏览器能够理解这些代码。)
+ 		</div>
+ 		<div class="test" style="text-overflow: clip;">
+			当你要给你的网页添加颜色时，有时，你能够直接使用该颜色的名称，但是大多情况下，你只能使用十六进制代码来使用这些颜色。(浏览器能够理解这些代码。)
+ 		</div>
+ 		<!--<div >
+ 		</div>-->
+ 		<h3 id="test">当你要给你的网页添加颜色时，有时，你能够直接使用该颜色的名称，但是大多情况下，你只能使用十六进制代码来使用这些颜色。(浏览器能够理解这些代码。)</h3>
+
+ 		
+ 	</body>
+</html>
